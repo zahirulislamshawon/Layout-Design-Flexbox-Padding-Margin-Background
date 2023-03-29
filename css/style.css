@@ -1,0 +1,22 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+</style>
+
+
+* { margin: 0px; box-sizing: border-box; }
+img { max-width: 100%; }
+.bannerSection { background: url("../image/landscape.jpg") 0px 50% / cover no-repeat fixed rgba(241, 250, 229, 0.57); padding: 265px 0px; background-blend-mode: overlay; }
+.bannerContent {margin: 0px auto;max-width: 1200px;text-align: center;}
+.bannerContent h1 { font-size: 35px; color: black; }
+.bannerContent p {font-size: 25px;max-width: 600px;margin: -18px auto;color: rgb(7, 57, 18);text-align: justify;}
+.blogSection { padding: 30px 100px; background-color: rgb(226, 229, 229); }
+.container {display: flex;flex-wrap: wrap;max-width: 1200px;margin: 0px auto;}
+.column {flex-basis: 29.33%;padding: 20px;}
+.card {padding: 26px;border-radius: 20px;background: rgb(226, 226, 226);transition-duration: 0.4s;box-shadow: black 1px 1px 8px 1px;}
+.card h2 {font-size: 30px;color: black;margin: 0 auto;}
+.card p { font-size: 20px; text-align: justify; color: rgb(7, 57, 18); }
+.card a {display: inline-block;background: #626c6e63;color: black;padding: 11px;border-radius: 6px;transition-duration: 0.4s;text-decoration: none;font-weight: 400;}
+.card a:hover {background-color: rgb(198 220 209);}
+.card:hover {background-color: rgb(172 184 178);}
+.card h2:hover {background-color: #ffffffb0;}
+.card p:hover {background-color: #e8e4e9fc;}
